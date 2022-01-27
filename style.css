@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: brown;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 450px;
+    width: 450px;
+
+}
+
+.kvadrat {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.5s linear;
+}
+
+.kvadrat.grow {
+    transform: translate(1.5rem) scale(1.2) rotate(360deg);
+}
+h2{
+    margin-top: -100px;
+}
